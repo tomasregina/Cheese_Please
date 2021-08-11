@@ -1,0 +1,27 @@
+{
+  "0" : {
+    "id" : 1,
+    "text" : "RV roku 2014 v politike uz urcite nebudem",
+    "thumbnail" : "https://images.sprinklecontent.com/500/0/?i=https%3A%2F%2Fcdn.webnoviny.sk%2Fsites%2F32%2F2018%2F03%2Frobert-fico-4-992x661.jpg&dpr=2"
+  },
+  "1" : {
+    "id" : 2,
+    "text" : "Ukazte mi jednu kauzu smeru!",
+    "thumbnail" : "https://img.projektn.sk/wp-static/2019/04/SIM_0070.jpg"
+  },
+  "2" : {
+    "id" : 3,
+    "text" : "Ste idiot!",
+    "thumbnail" : "https://www.info.sk/videofoto/160598/I8rQTKc.jpg"
+  },
+  "3" : {
+    "id" : 4,
+    "text" : "Klamstva, klamstva, klamstva!",
+    "thumbnail" : "https://static.markiza.sk/a501/image/file/2/1750/ZBql.ivan_majersky_jpg.jpg"
+  },
+  "4" : {
+    "id" : 5,
+    "text" : "Hulvatskym a idiotskym sposobom atakujete vladu SR!",
+    "thumbnail" : "https://www.info.sk/videofoto/160598/I8rQTKc.jpg"
+  }
+}
