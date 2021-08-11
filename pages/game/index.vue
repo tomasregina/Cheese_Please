@@ -204,9 +204,9 @@ export default {
     Promise.all([
       // for dev purpose, you can use terminal command "http-server -p 3001 --cors"
       // to serve face-api models locally
-      await faceapi.nets.ssdMobilenetv1.loadFromUri("../assets/weights"),
-      await faceapi.nets.tinyFaceDetector.loadFromUri("../assets/weights"),
-      await faceapi.nets.faceExpressionNet.loadFromUri("../assets/weights")
+      await faceapi.nets.ssdMobilenetv1.loadFromUri("https://github.com/tomasregina/Cheese_Please/tree/master/assets/weights"),
+      await faceapi.nets.tinyFaceDetector.loadFromUri("https://github.com/tomasregina/Cheese_Please/tree/master/assets/weights"),
+      await faceapi.nets.faceExpressionNet.loadFromUri("https://github.com/tomasregina/Cheese_Please/tree/master/assets/weights")
     ]).then(() => {
       this.startVideo();
       this.allLoaded = true;
