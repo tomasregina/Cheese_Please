@@ -1,6 +1,7 @@
 
 export default {
   mode: 'universal',
+  target: 'static',
   /*
   ** Headers of the page
   */
@@ -47,7 +48,7 @@ export default {
     '@nuxtjs/axios'
   ],
   axios: {
-    baseURL: process.env.BASE_URL || 'https://face-api-project.firebaseio.com' 
+    baseURL: process.env.BASE_URL || 'https://face-api-project.firebaseio.com'
   },
   env: {
     baseUrl: process.env.BASE_URL || "https://face-api-project.firebaseio.com",
