@@ -207,9 +207,9 @@ export default {
 /*       await faceapi.nets.ssdMobilenetv1.loadFromUri("https://github.com/tomasregina/Cheese_Please/tree/master/assets/weights"),
       await faceapi.nets.tinyFaceDetector.loadFromUri("https://github.com/tomasregina/Cheese_Please/tree/master/assets/weights"),
       await faceapi.nets.faceExpressionNet.loadFromUri("https://github.com/tomasregina/Cheese_Please/tree/master/assets/weights")
- */   await faceapi.loadSsdMobilenetv1Model('/models'),
-      await faceapi.loadTinyFaceDetectorModel('/models'),
-      await faceapi.loadFaceExpressionModel('/models')
+ */   await faceapi.loadSsdMobilenetv1Model('/face_api_models'),
+      await faceapi.loadTinyFaceDetectorModel('/face_api_models'),
+      await faceapi.loadFaceExpressionModel('/face_api_models')
     ]).then(() => {
       this.startVideo();
       this.allLoaded = true;
